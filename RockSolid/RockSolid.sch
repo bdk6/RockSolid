@@ -1,0 +1,837 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC04 U2
+U 1 1 60B3896F
+P 4800 4600
+F 0 "U2" H 4800 4917 50  0000 C CNN
+F 1 "74HC04" H 4800 4826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4800 4600 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 2 1 60B38A03
+P 5600 4600
+F 0 "U2" H 5600 4917 50  0000 C CNN
+F 1 "74HC04" H 5600 4826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5600 4600 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 5600 4600 50  0001 C CNN
+	2    5600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 3 1 60B38A74
+P 6300 3900
+F 0 "U2" H 6300 4217 50  0000 C CNN
+F 1 "74HC04" H 6300 4126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 3900 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 6300 3900 50  0001 C CNN
+	3    6300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 4 1 60B38AF6
+P 6300 4350
+F 0 "U2" H 6300 4667 50  0000 C CNN
+F 1 "74HC04" H 6300 4576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 4350 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 6300 4350 50  0001 C CNN
+	4    6300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 5 1 60B38B5B
+P 6300 4800
+F 0 "U2" H 6300 5117 50  0000 C CNN
+F 1 "74HC04" H 6300 5026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 4800 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 6300 4800 50  0001 C CNN
+	5    6300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 6 1 60B38BE7
+P 6300 5200
+F 0 "U2" H 6300 5517 50  0000 C CNN
+F 1 "74HC04" H 6300 5426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 5200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 6300 5200 50  0001 C CNN
+	6    6300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 7 1 60B38C62
+P 4450 2200
+F 0 "U1" H 4680 2246 50  0000 L CNN
+F 1 "74HC04" H 4680 2155 50  0000 L CNN
+F 2 "" H 4450 2200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 4450 2200 50  0001 C CNN
+	7    4450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 60B38F11
+P 4750 4050
+F 0 "R1" V 4545 4050 50  0000 C CNN
+F 1 "1M" V 4636 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 4750 4050 50  0001 C CNN
+F 3 "~" H 4750 4050 50  0001 C CNN
+	1    4750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 60B38FA5
+P 5200 4900
+F 0 "R2" H 5268 4946 50  0000 L CNN
+F 1 "1000" H 5268 4855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 5200 4900 50  0001 C CNN
+F 3 "~" H 5200 4900 50  0001 C CNN
+	1    5200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 60B39020
+P 6800 3900
+F 0 "R3" V 6595 3900 50  0000 C CNN
+F 1 "180" V 6686 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 6800 3900 50  0001 C CNN
+F 3 "~" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 60B3908C
+P 6800 4350
+F 0 "R4" V 6595 4350 50  0000 C CNN
+F 1 "180" V 6686 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 6800 4350 50  0001 C CNN
+F 3 "~" H 6800 4350 50  0001 C CNN
+	1    6800 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 60B39115
+P 6800 4800
+F 0 "R5" V 6595 4800 50  0000 C CNN
+F 1 "180" V 6686 4800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 6800 4800 50  0001 C CNN
+F 3 "~" H 6800 4800 50  0001 C CNN
+	1    6800 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 60B3917B
+P 6800 5200
+F 0 "R6" V 6595 5200 50  0000 C CNN
+F 1 "180" V 6686 5200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" H 6800 5200 50  0001 C CNN
+F 3 "~" H 6800 5200 50  0001 C CNN
+	1    6800 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal_GND3_Small Y1
+U 1 1 60B39259
+P 4950 5100
+F 0 "Y1" H 4950 5325 50  0000 C CNN
+F 1 "10 Mhz" H 4950 5234 50  0000 C CNN
+F 2 "Crystal:Crystal_HC49-U_Horizontal_1EP_style2" H 4950 5100 50  0001 C CNN
+F 3 "~" H 4950 5100 50  0001 C CNN
+	1    4950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 60B39345
+P 5500 5400
+F 0 "C9" H 5592 5446 50  0000 L CNN
+F 1 "10" H 5592 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5500 5400 50  0001 C CNN
+F 3 "~" H 5500 5400 50  0001 C CNN
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 60B393F8
+P 4450 5400
+F 0 "C6" H 4542 5446 50  0000 L CNN
+F 1 "15" H 4542 5355 50  0000 L CNN
+F 2 "apacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4450 5400 50  0001 C CNN
+F 3 "~" H 4450 5400 50  0001 C CNN
+	1    4450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 60B3947A
+P 3950 2150
+F 0 "C4" H 4042 2196 50  0000 L CNN
+F 1 "0.1" H 4042 2105 50  0000 L CNN
+F 2 "apacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3950 2150 50  0001 C CNN
+F 3 "~" H 3950 2150 50  0001 C CNN
+	1    3950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60B39515
+P 5200 5400
+F 0 "C5" H 5292 5446 50  0000 L CNN
+F 1 "15" H 5292 5355 50  0000 L CNN
+F 2 "apacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5200 5400 50  0001 C CNN
+F 3 "~" H 5200 5400 50  0001 C CNN
+	1    5200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 60B3957D
+P 4150 5400
+F 0 "C8" H 4242 5446 50  0000 L CNN
+F 1 "10" H 4242 5355 50  0000 L CNN
+F 2 "apacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4150 5400 50  0001 C CNN
+F 3 "~" H 4150 5400 50  0001 C CNN
+	1    4150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C7
+U 1 1 60B39642
+P 3850 5400
+F 0 "C7" H 3965 5446 50  0000 L CNN
+F 1 "70" H 3965 5355 50  0000 L CNN
+F 2 "MyFootprints:C_Trimmer_6mm_2pin_5mm" H 3850 5400 50  0001 C CNN
+F 3 "~" H 3850 5400 50  0001 C CNN
+	1    3850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B3971E
+P 2050 2100
+F 0 "#PWR?" H 2050 1850 50  0001 C CNN
+F 1 "GND" H 2055 1927 50  0000 C CNN
+F 2 "" H 2050 2100 50  0001 C CNN
+F 3 "" H 2050 2100 50  0001 C CNN
+	1    2050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B39758
+P 3050 2100
+F 0 "#PWR?" H 3050 1850 50  0001 C CNN
+F 1 "GND" H 3055 1927 50  0000 C CNN
+F 2 "" H 3050 2100 50  0001 C CNN
+F 3 "" H 3050 2100 50  0001 C CNN
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B3978B
+P 1550 2100
+F 0 "#PWR?" H 1550 1850 50  0001 C CNN
+F 1 "GND" H 1555 1927 50  0000 C CNN
+F 2 "" H 1550 2100 50  0001 C CNN
+F 3 "" H 1550 2100 50  0001 C CNN
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B397BE
+P 3600 7450
+F 0 "#PWR?" H 3600 7200 50  0001 C CNN
+F 1 "GND" H 3605 7277 50  0000 C CNN
+F 2 "" H 3600 7450 50  0001 C CNN
+F 3 "" H 3600 7450 50  0001 C CNN
+	1    3600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B397F1
+P 3900 7450
+F 0 "#PWR?" H 3900 7200 50  0001 C CNN
+F 1 "GND" H 3905 7277 50  0000 C CNN
+F 2 "" H 3900 7450 50  0001 C CNN
+F 3 "" H 3900 7450 50  0001 C CNN
+	1    3900 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B39824
+P 4150 7450
+F 0 "#PWR?" H 4150 7200 50  0001 C CNN
+F 1 "GND" H 4155 7277 50  0000 C CNN
+F 2 "" H 4150 7450 50  0001 C CNN
+F 3 "" H 4150 7450 50  0001 C CNN
+	1    4150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B39857
+P 4400 7450
+F 0 "#PWR?" H 4400 7200 50  0001 C CNN
+F 1 "GND" H 4405 7277 50  0000 C CNN
+F 2 "" H 4400 7450 50  0001 C CNN
+F 3 "" H 4400 7450 50  0001 C CNN
+	1    4400 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B3988A
+P 4650 7450
+F 0 "#PWR?" H 4650 7200 50  0001 C CNN
+F 1 "GND" H 4655 7277 50  0000 C CNN
+F 2 "" H 4650 7450 50  0001 C CNN
+F 3 "" H 4650 7450 50  0001 C CNN
+	1    4650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B398BD
+P 5650 2600
+F 0 "#PWR?" H 5650 2350 50  0001 C CNN
+F 1 "GND" H 5655 2427 50  0000 C CNN
+F 2 "" H 5650 2600 50  0001 C CNN
+F 3 "" H 5650 2600 50  0001 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B398F0
+P 6100 2600
+F 0 "#PWR?" H 6100 2350 50  0001 C CNN
+F 1 "GND" H 6105 2427 50  0000 C CNN
+F 2 "" H 6100 2600 50  0001 C CNN
+F 3 "" H 6100 2600 50  0001 C CNN
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B39923
+P 8800 2850
+F 0 "#PWR?" H 8800 2600 50  0001 C CNN
+F 1 "GND" H 8805 2677 50  0000 C CNN
+F 2 "" H 8800 2850 50  0001 C CNN
+F 3 "" H 8800 2850 50  0001 C CNN
+	1    8800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B39956
+P 4450 2750
+F 0 "#PWR?" H 4450 2500 50  0001 C CNN
+F 1 "GND" H 4455 2577 50  0000 C CNN
+F 2 "" H 4450 2750 50  0001 C CNN
+F 3 "" H 4450 2750 50  0001 C CNN
+	1    4450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B39989
+P 4950 5700
+F 0 "#PWR?" H 4950 5450 50  0001 C CNN
+F 1 "GND" H 4955 5527 50  0000 C CNN
+F 2 "" H 4950 5700 50  0001 C CNN
+F 3 "" H 4950 5700 50  0001 C CNN
+	1    4950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39A1F
+P 8300 6350
+F 0 "#PWR?" H 8300 6200 50  0001 C CNN
+F 1 "VCC" H 8317 6523 50  0000 C CNN
+F 2 "" H 8300 6350 50  0001 C CNN
+F 3 "" H 8300 6350 50  0001 C CNN
+	1    8300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39A59
+P 8600 6350
+F 0 "#PWR?" H 8600 6200 50  0001 C CNN
+F 1 "VCC" H 8617 6523 50  0000 C CNN
+F 2 "" H 8600 6350 50  0001 C CNN
+F 3 "" H 8600 6350 50  0001 C CNN
+	1    8600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39A8C
+P 8900 6350
+F 0 "#PWR?" H 8900 6200 50  0001 C CNN
+F 1 "VCC" H 8917 6523 50  0000 C CNN
+F 2 "" H 8900 6350 50  0001 C CNN
+F 3 "" H 8900 6350 50  0001 C CNN
+	1    8900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39ABF
+P 9150 6350
+F 0 "#PWR?" H 9150 6200 50  0001 C CNN
+F 1 "VCC" H 9167 6523 50  0000 C CNN
+F 2 "" H 9150 6350 50  0001 C CNN
+F 3 "" H 9150 6350 50  0001 C CNN
+	1    9150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39AF2
+P 9400 6350
+F 0 "#PWR?" H 9400 6200 50  0001 C CNN
+F 1 "VCC" H 9417 6523 50  0000 C CNN
+F 2 "" H 9400 6350 50  0001 C CNN
+F 3 "" H 9400 6350 50  0001 C CNN
+	1    9400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39B25
+P 9700 6350
+F 0 "#PWR?" H 9700 6200 50  0001 C CNN
+F 1 "VCC" H 9717 6523 50  0000 C CNN
+F 2 "" H 9700 6350 50  0001 C CNN
+F 3 "" H 9700 6350 50  0001 C CNN
+	1    9700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39B58
+P 9900 6350
+F 0 "#PWR?" H 9900 6200 50  0001 C CNN
+F 1 "VCC" H 9917 6523 50  0000 C CNN
+F 2 "" H 9900 6350 50  0001 C CNN
+F 3 "" H 9900 6350 50  0001 C CNN
+	1    9900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39B8B
+P 10150 6350
+F 0 "#PWR?" H 10150 6200 50  0001 C CNN
+F 1 "VCC" H 10167 6523 50  0000 C CNN
+F 2 "" H 10150 6350 50  0001 C CNN
+F 3 "" H 10150 6350 50  0001 C CNN
+	1    10150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39BBE
+P 10400 6350
+F 0 "#PWR?" H 10400 6200 50  0001 C CNN
+F 1 "VCC" H 10417 6523 50  0000 C CNN
+F 2 "" H 10400 6350 50  0001 C CNN
+F 3 "" H 10400 6350 50  0001 C CNN
+	1    10400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39BF1
+P 10650 6350
+F 0 "#PWR?" H 10650 6200 50  0001 C CNN
+F 1 "VCC" H 10667 6523 50  0000 C CNN
+F 2 "" H 10650 6350 50  0001 C CNN
+F 3 "" H 10650 6350 50  0001 C CNN
+	1    10650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39C24
+P 10900 6350
+F 0 "#PWR?" H 10900 6200 50  0001 C CNN
+F 1 "VCC" H 10917 6523 50  0000 C CNN
+F 2 "" H 10900 6350 50  0001 C CNN
+F 3 "" H 10900 6350 50  0001 C CNN
+	1    10900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60B39C57
+P 4450 1600
+F 0 "#PWR?" H 4450 1450 50  0001 C CNN
+F 1 "VCC" H 4467 1773 50  0000 C CNN
+F 2 "" H 4450 1600 50  0001 C CNN
+F 3 "" H 4450 1600 50  0001 C CNN
+	1    4450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C10
+U 1 1 60B3A3E6
+P 3500 5400
+F 0 "C10" H 3615 5446 50  0000 L CNN
+F 1 "8" H 3615 5355 50  0000 L CNN
+F 2 "MyFootprints:C_Trimmer_6mm_2pin_5mm" H 3500 5400 50  0001 C CNN
+F 3 "~" H 3500 5400 50  0001 C CNN
+	1    3500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L78L05_TO92 U1
+U 1 1 60B3A64B
+P 2600 1700
+F 0 "U1" H 2600 1942 50  0000 C CNN
+F 1 "L78L05_TO92" H 2600 1851 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2600 1925 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 2600 1650 50  0001 C CNN
+	1    2600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 60B3A6D3
+P 3050 1900
+F 0 "C3" H 3142 1946 50  0000 L CNN
+F 1 "0.1" H 3142 1855 50  0000 L CNN
+F 2 "apacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3050 1900 50  0001 C CNN
+F 3 "~" H 3050 1900 50  0001 C CNN
+	1    3050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60B3A7A1
+P 2050 1900
+F 0 "C2" H 2142 1946 50  0000 L CNN
+F 1 "0.33" H 2142 1855 50  0000 L CNN
+F 2 "apacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2050 1900 50  0001 C CNN
+F 3 "~" H 2050 1900 50  0001 C CNN
+	1    2050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B3A967
+P 2600 2100
+F 0 "#PWR?" H 2600 1850 50  0001 C CNN
+F 1 "GND" H 2605 1927 50  0000 C CNN
+F 2 "" H 2600 2100 50  0001 C CNN
+F 3 "" H 2600 2100 50  0001 C CNN
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1700 3950 1700
+Wire Wire Line
+	3950 1700 3950 2050
+Wire Wire Line
+	3950 2250 3950 2700
+Wire Wire Line
+	3950 2700 4450 2700
+Wire Wire Line
+	4450 2750 4450 2700
+Connection ~ 4450 2700
+Wire Wire Line
+	4450 1600 4450 1700
+Connection ~ 4450 1700
+Wire Wire Line
+	5100 4600 5200 4600
+Wire Wire Line
+	5200 4600 5200 4800
+Wire Wire Line
+	5200 5000 5200 5100
+Wire Wire Line
+	5050 5100 5200 5100
+Connection ~ 5200 5100
+Wire Wire Line
+	5200 5100 5200 5300
+Wire Wire Line
+	4850 4050 5200 4050
+Wire Wire Line
+	5200 4050 5200 4600
+Connection ~ 5200 4600
+Wire Wire Line
+	4650 4050 4450 4050
+Wire Wire Line
+	4450 4050 4450 4600
+Wire Wire Line
+	4450 4600 4500 4600
+Wire Wire Line
+	4850 5100 4450 5100
+Wire Wire Line
+	4450 5100 4450 4600
+Connection ~ 4450 4600
+Wire Wire Line
+	4450 5100 4450 5300
+Connection ~ 4450 5100
+Wire Wire Line
+	5500 5300 5200 5300
+Connection ~ 5200 5300
+Wire Wire Line
+	4950 5250 4950 5600
+Wire Wire Line
+	5500 5500 5500 5600
+Wire Wire Line
+	5500 5600 5200 5600
+Connection ~ 4950 5600
+Wire Wire Line
+	4950 5600 4950 5700
+Wire Wire Line
+	5200 5500 5200 5600
+Connection ~ 5200 5600
+Wire Wire Line
+	5200 5600 4950 5600
+Wire Wire Line
+	4450 5500 4450 5600
+Wire Wire Line
+	4450 5600 4950 5600
+Wire Wire Line
+	5900 5950 7650 5950
+Wire Wire Line
+	7650 5200 6900 5200
+Wire Wire Line
+	5900 4600 5900 4800
+Wire Wire Line
+	6000 3900 5900 3900
+Wire Wire Line
+	5900 3900 5900 4350
+Connection ~ 5900 4600
+Wire Wire Line
+	6000 5200 5900 5200
+Connection ~ 5900 5200
+Wire Wire Line
+	5900 5200 5900 5950
+Wire Wire Line
+	6000 4800 5900 4800
+Connection ~ 5900 4800
+Wire Wire Line
+	5900 4800 5900 5200
+Wire Wire Line
+	6000 4350 5900 4350
+Connection ~ 5900 4350
+Wire Wire Line
+	5900 4350 5900 4600
+Wire Wire Line
+	6600 3900 6700 3900
+Wire Wire Line
+	6600 4350 6700 4350
+Wire Wire Line
+	6600 4800 6700 4800
+Wire Wire Line
+	6600 5200 6700 5200
+Wire Wire Line
+	6900 3900 7650 3900
+Wire Wire Line
+	7650 3900 7650 4350
+Wire Wire Line
+	6900 4350 7650 4350
+Connection ~ 7650 4350
+Wire Wire Line
+	7650 4350 7650 4800
+Wire Wire Line
+	6900 4800 7650 4800
+Connection ~ 7650 4800
+Wire Wire Line
+	7650 4800 7650 5200
+Wire Wire Line
+	2600 2000 2600 2100
+Wire Wire Line
+	3050 2000 3050 2100
+Wire Wire Line
+	2050 2000 2050 2100
+Wire Wire Line
+	3050 1700 3050 1800
+Wire Wire Line
+	2300 1700 2050 1700
+Wire Wire Line
+	2050 1700 2050 1800
+Wire Wire Line
+	2900 1700 3050 1700
+Connection ~ 3950 1700
+Connection ~ 3050 1700
+Wire Wire Line
+	3050 1700 3950 1700
+Connection ~ 4450 5600
+Wire Wire Line
+	4150 5500 4150 5600
+Wire Wire Line
+	4450 5100 4150 5100
+Wire Wire Line
+	3850 5250 3850 5100
+Wire Wire Line
+	4150 5300 4150 5100
+$Comp
+L Device:CP_Small C1
+U 1 1 60B51D26
+P 1550 1900
+F 0 "C1" H 1638 1946 50  0000 L CNN
+F 1 "22u" H 1638 1855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1550 1900 50  0001 C CNN
+F 3 "~" H 1550 1900 50  0001 C CNN
+	1    1550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2000 1550 2100
+Wire Wire Line
+	2050 1700 1550 1700
+Wire Wire Line
+	1550 1700 1550 1800
+Connection ~ 2050 1700
+Connection ~ 4150 5100
+Connection ~ 4150 5600
+Wire Wire Line
+	4150 5600 4450 5600
+Connection ~ 3850 5100
+Wire Wire Line
+	3850 5100 4150 5100
+Wire Wire Line
+	3500 5250 3500 5100
+Wire Wire Line
+	3500 5100 3850 5100
+Wire Wire Line
+	3500 5550 3500 5600
+Wire Wire Line
+	3500 5600 3850 5600
+Wire Wire Line
+	3850 5550 3850 5600
+Connection ~ 3850 5600
+Wire Wire Line
+	3850 5600 4150 5600
+Wire Wire Line
+	5200 4600 5300 4600
+$Comp
+L Transistor_FET:IRF540N Q1
+U 1 1 60B6BB36
+P 6000 1950
+F 0 "Q1" H 6205 1996 50  0000 L CNN
+F 1 "IRF540N" H 6205 1905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6250 1875 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6000 1950 50  0001 L CNN
+	1    6000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Thermistor_US TH1
+U 1 1 60B6BC3C
+P 5650 2300
+F 0 "TH1" H 5400 2350 50  0000 L CNN
+F 1 "10K NTC " H 5250 2250 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" H 5650 2300 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/A-409.pdf" H 5650 2300 50  0001 C CNN
+	1    5650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 60B6CBA3
+P 6400 1550
+F 0 "R8" H 6468 1596 50  0000 L CNN
+F 1 "100" H 6468 1505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P7.62mm_Vertical" H 6400 1550 50  0001 C CNN
+F 3 "~" H 6400 1550 50  0001 C CNN
+	1    6400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 60B6CC21
+P 6100 1550
+F 0 "R7" H 6168 1596 50  0000 L CNN
+F 1 "100" H 6168 1505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P7.62mm_Vertical" H 6100 1550 50  0001 C CNN
+F 3 "~" H 6100 1550 50  0001 C CNN
+	1    6100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV1
+U 1 1 60B6CD0F
+P 5650 1600
+F 0 "RV1" H 5582 1646 50  0000 R CNN
+F 1 "50K" H 5582 1555 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal" H 5650 1600 50  0001 C CNN
+F 3 "~" H 5650 1600 50  0001 C CNN
+	1    5650 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 5450 3000 0    50   ~ 0
+Thinking TTC05103 
+Wire Wire Line
+	5650 1750 5650 1850
+Wire Wire Line
+	5800 1950 5650 1950
+Connection ~ 5650 1950
+Wire Wire Line
+	5650 1950 5650 2150
+Wire Wire Line
+	5800 1600 5800 1850
+Wire Wire Line
+	5800 1850 5650 1850
+Connection ~ 5650 1850
+Wire Wire Line
+	5650 1850 5650 1950
+Wire Wire Line
+	5650 2450 5650 2600
+Wire Wire Line
+	6100 2150 6100 2600
+Wire Wire Line
+	6100 1650 6400 1650
+Wire Wire Line
+	6100 1650 6100 1750
+Connection ~ 6100 1650
+Wire Wire Line
+	5650 1450 5650 1350
+Wire Wire Line
+	5650 1350 6100 1350
+Wire Wire Line
+	6400 1350 6400 1450
+Wire Wire Line
+	6100 1450 6100 1350
+Connection ~ 6100 1350
+Wire Wire Line
+	6100 1350 6400 1350
+$EndSCHEMATC
