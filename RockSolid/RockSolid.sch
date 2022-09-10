@@ -583,7 +583,7 @@ Wire Wire Line
 Connection ~ 4550 4150
 Wire Wire Line
 	4550 4150 4850 4150
-Text Notes 3200 4550 0    50   ~ 0
+Text Notes 2900 4350 0    50   ~ 0
 Heater Circuit
 Wire Wire Line
 	2150 3850 2150 2150
@@ -715,10 +715,10 @@ F 3 "~" H 4400 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0104
 U 1 1 6388FEEB
 P 4400 3850
-F 0 "#PWR?" H 4400 3700 50  0001 C CNN
+F 0 "#PWR0104" H 4400 3700 50  0001 C CNN
 F 1 "VCC" H 4417 4023 50  0000 C CNN
 F 2 "" H 4400 3850 50  0001 C CNN
 F 3 "" H 4400 3850 50  0001 C CNN
@@ -734,4 +734,6 @@ Wire Wire Line
 	4100 4700 4100 4600
 Wire Wire Line
 	4400 4400 4400 3850
+Text Notes 5800 5000 0    50   ~ 0
+Populate either R9 or R10, not both.
 $EndSCHEMATC
