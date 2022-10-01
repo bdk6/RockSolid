@@ -391,8 +391,6 @@ Wire Wire Line
 	8350 3250 8050 3250
 Connection ~ 8050 3250
 Wire Wire Line
-	7800 3200 7800 3550
-Wire Wire Line
 	8350 3450 8350 3550
 Wire Wire Line
 	8350 3550 8050 3550
@@ -736,4 +734,6 @@ Wire Wire Line
 	4400 4400 4400 3850
 Text Notes 5800 5000 0    50   ~ 0
 Populate either R9 or R10, not both.
+Wire Wire Line
+	7800 3175 7800 3550
 $EndSCHEMATC
